@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="#home"><img src="assets/logo.png"></a>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="link active">Home</a></li>
+            <li><a href="#about" class="link">About</a></li>
+            <li><a href="#skills" class="link">Skills</a></li>
+            <li><a href="#projects" class="link">Projects</a></li>
+            <li><a href="#contact" class="link">Contact</a></li>
+        </ul>
+
+        <div class="menu">
+           <a class="btn" href="assets/CV_RINON.pdf" target="_blank" rel="noopener noreferrer">View Resume <i class="ri-file-line"></i></a>
+           <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </div> 
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-circle"></div>
+        <div class="home-details">
+            <h1>Hi, It's <span>Charles</span></h1>
+            <h1>I'm a <span class="input"></span></h1>
+            <p> I am eager to apply my knowledge and experience to real-world projects,
+                 utilizing my skills in software design and development. I am enthusiastic 
+                 about the opportunity to collaborate with professionals and take on new 
+                 challenges that will help me grow both personally and professionally.
+            </p>
+            <div class="socials">
+                <a href="https://github.com/CBLR07/" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i></a>
+                <a href="https://www.linkedin.com/in/charles-brett-riñon-a308502b0/" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://www.facebook.com/charles.rinon/" target="_blank" rel="noopener noreferrer"><i class="ri-facebook-fill"></i></a>
+                <a href="https://www.instagram.com/chowieee07/" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-fill"></i></a>
+            </div>           
+            <div>
+                <a class="home-btn" href="#about"> More About Me </a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="assets/me.png">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/self.png">
+        </div>
+        <div class="about-details">
+            <h1>About <span>Me</span></h1>
+            <p>Hello, I'm Charles Brett L. Riñon. I recently graduated from Far 
+                Eastern University, earning a Bachelor's Degree in Computer 
+                Science with a Specialization in Software Engineering. I have
+                completed my internship and now seeking an opportunity in 
+                the field where I can apply my educational 
+                background and passion for software design and development. 
+                I am particularly interested in joining a team where I can 
+                contribute my skills in programming, problem-solving, and 
+                software engineering principles. My aim is to work on projects 
+                that challenge me to grow as a developer while delivering 
+                impactful solutions that meet user needs and business objectives.
+            </p>
+            <div>
+                <a class="about-btn" href="#contact">Contact Me</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="skills" id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="skills-container">
+            <div class="box">
+                <img src="assets/skills/html.png">
+                <span>HTML</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/css.png">
+                <span>CSS</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/JS.png">
+                <span>JavaScript</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/react.png">
+                <span>ReactJS</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/mysql.png">
+                <span>MySQL</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/postgresql.png">
+                <span>PostgreSQL</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/php.png">
+                <span>PHP</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/c++.png">
+                <span>C++</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/java.png">
+                <span>Java</span>
+            </div>
+            <div class="box">
+                <img src="assets/skills/python.png">
+                <span>Python</span>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h1 class="heading">My Recent <span>Projects</span></h1>
+        <div class="proj-container">
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/proj/proj-about.JPG"/>
+                </div>
+                <div class="proj-details">About Us Section - Tagpros Website</div>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/proj/proj-todo.JPG"/>
+                </div>
+                <div class="proj-details">To-Do List Web Application</div>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/proj/proj-article.jpg"/>
+                </div>
+                <div class="proj-details">Articles Tab - Tagpros Website</div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-details">
+                <h1>Contact Me</h1>
+                <div class="email">
+                    <i class="ri-mail-fill"></i>
+                    <span> charlesrinon7@gmail.com</span>
+                </div>
+                <div class="num">
+                    <i class="ri-phone-fill"></i>
+                    <span> 0992 839 7202</span>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/CBLR07/" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/charles-brett-riñon-a308502b0/" target="_blank" rel="noopener noreferrer"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="https://www.facebook.com/charles.rinon/" target="_blank" rel="noopener noreferrer"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://www.instagram.com/chowieee07/" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-fill"></i></a>
+                </div>
+                <a class="contact-btn" href="/assets/CV_RINON.pdf" download="CV Resume">
+                    Download CV<i class="ri-download-2-line"></i>
+                </a>       
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" name="user_name" placeholder="Enter Name" class="textbox" required>
+                <input type="email" name="user_email" placeholder="Enter Email" class="textbox" required>
+                <textarea name="user_message" id="" cols="30" rows="5" placeholder="Enter Your Message Here" class="textbox" required></textarea>
+                <input type="submit" value="Submit" class="submit-btn">
+                <p id="contactResponse"></p>
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="copyright">
+            <p>© Copyright Charles Brett Riñon | All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
