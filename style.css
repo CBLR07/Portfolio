@@ -695,7 +695,7 @@ form .submit-btn:hover{
         height:45vw;
         width:42vw;
         top: 8rem;
-        right: 7rem; 
+        right: 6.5rem; 
     } 
     .home-img img{
         padding-bottom: 0rem;
@@ -793,7 +793,6 @@ form .submit-btn:hover{
         padding-left: 1rem;
         font-size: 1rem;
     }
-
     form input::placeholder, form textarea::placeholder{
         font-size: 11px;
     }
@@ -812,5 +811,4 @@ form .submit-btn:hover{
         font-weight: 400;
         text-align: center;
     }
-    
 }
